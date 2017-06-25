@@ -32,7 +32,7 @@ class Author
     }
 
     public function setAuthor($authorFirstName, $authorLastName) {
-        $this->author = $authorFirstName + ' ' + $authorLastName;
+        $this->author = $authorFirstName . ' '  . $authorLastName;
         return $this;
     }
 
